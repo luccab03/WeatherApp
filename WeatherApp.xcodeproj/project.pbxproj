@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14BDFB62C5040BB00F077BB /* MockWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14BDFB52C5040BB00F077BB /* MockWeatherData.swift */; };
 		A198B04B2C4FE09C000289A9 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A198B0492C4FDB69000289A9 /* CoreLocationUI.framework */; };
 		A198B04D2C4FE09C000289A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A198B04C2C4FE09C000289A9 /* CoreLocation.framework */; };
 		A198B0512C4FE45F000289A9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A198B0502C4FE45F000289A9 /* WeatherView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A14BDFB52C5040BB00F077BB /* MockWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWeatherData.swift; sourceTree = "<group>"; };
 		A198B0492C4FDB69000289A9 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/CoreLocationUI.framework; sourceTree = DEVELOPER_DIR; };
 		A198B04C2C4FE09C000289A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		A198B0502C4FE45F000289A9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A1DF6BCD2C4EE7CE00E9BA09 /* Preview Assets.xcassets */,
+				A14BDFB52C5040BB00F077BB /* MockWeatherData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				A1DF6BC82C4EE7CD00E9BA09 /* ContentView.swift in Sources */,
 				A1DF6BD72C4EE88B00E9BA09 /* LocationController.swift in Sources */,
 				A1DF6BDC2C4FD6F500E9BA09 /* SplashView.swift in Sources */,
+				A14BDFB62C5040BB00F077BB /* MockWeatherData.swift in Sources */,
 				A198B0512C4FE45F000289A9 /* WeatherView.swift in Sources */,
 				A1DF6BD92C4EE9B700E9BA09 /* WeatherController.swift in Sources */,
 				A1DF6BC62C4EE7CD00E9BA09 /* WeatherAppApp.swift in Sources */,
